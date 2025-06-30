@@ -1,0 +1,149 @@
+
+body {
+  font-family: 'Arial Black', Gadget, sans-serif;
+  background: linear-gradient(to right, #c49516, #ea473e);
+  color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  padding: 60px 20px 20px;
+}
+
+header h1 {
+  font-family: 'Franklin Gothic Medium', 'Arial Black', Arial, sans-serif;
+  color: #000;
+  font-size: 4rem;
+  margin: 0;
+  text-shadow: 2px 2px 4px #f3eeee;
+}
+
+header p {
+  font-size: 2rem;
+  color: #450f0f;
+  text-shadow: 2px 2px 4px #e6c761;
+}
+
+.tribute-img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin: 30px auto;
+  box-shadow: 0 0 20px #000;
+}
+
+.content {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding: 20px;
+  line-height: 1.6;
+  font-size: 1.8rem;
+  color: #1c1c1a;
+}
+
+.content h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 30px 20px;
+  font-size: 2.5rem;
+  color: #dae029;
+  text-shadow: 2px 2px 4px #000;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 30px 20px;
+  font-size: 0.9rem;
+  color: #aaa;
+}
+
+nav {
+  display: flex;
+  justify-content: right;
+  background-color: #3f4246;
+  padding: 1rem 2rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Black', Arial, sans-serif;
+  box-shadow: 0 2px 5px rgba(218, 207, 207, 0.899);
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.profile-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+nav a {
+  text-decoration: none;
+  color: #f1e9e9;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: color 0.3s, border-bottom 0.3s;
+}
+
+nav a:hover {
+  color: #bd972d;
+  border-bottom: 2px solid #007BFF;
+}
+
+#contactForm {
+  display: none;
+  margin-top: 40px;
+  padding: 20px;
+  background-color: rgba(255,255,255,0.1);
+  border-radius: 8px;
+}
+
+#contactForm:target {
+  display: block;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+form input, form textarea {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+form button {
+  background-color: #007BFF;
+  color: white;
+  padding: 10px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #0056b3;
+}
+
+.close-btn {
+  color: #fff;
+  text-align: right;
+  display: block;
+  margin-bottom: 10px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  float: right;
+}
